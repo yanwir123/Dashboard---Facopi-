@@ -1,0 +1,45 @@
+.area-line-chart {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-family: Arial, sans-serif;
+
+  .area-line-chart-info {
+    margin-bottom: 20px;
+
+    .area-line-chart-title {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .area-line-chart-info-data {
+      display: flex;
+      align-items: center;
+
+      .info-data-value {
+        font-size: 24px;
+        font-weight: bold;
+        margin-right: 10px;
+      }
+
+      .info-data-text {
+        display: flex;
+        align-items: center;
+
+        p {
+          font-size: 14px;
+          color: #4caf50; // Green color for positive change
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .area-line-chart-wrapper {
+    height: 300px; // Adjust height as needed
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.1)); // Adding shadow
+  }
+}
